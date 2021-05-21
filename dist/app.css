@@ -1,2 +1,66 @@
 /* File generici che servono per tutto il sito */
+/* Variabili necessarie: */
+/* Spazio usato per padding e margin */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 920px;
+  width: 100%;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
 /* File specifici per varie sezioni del mio sito */
+.nav-container {
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  border-bottom: 1px solid blue;
+}
+
+.logo-container {
+  display: flex;
+  align-content: center;
+}
+
+.nav-menu {
+  display: flex;
+  align-content: center;
+}
+
+ul {
+  margin-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+ul li a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  color: blue;
+}
+
+.btn-google img {
+  width: 10px;
+  display: flex;
+  align-content: center;
+}
+
+.btn-google {
+  display: flex;
+  align-content: center;
+}
