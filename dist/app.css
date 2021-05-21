@@ -18,8 +18,30 @@ body {
   margin: auto;
 }
 
+.container2 {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
 .d-flex {
   display: flex;
+}
+
+.row {
+  display: flex;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 33%;
+}
+
+.bg_blue {
+  background-color: #a7a7ec;
 }
 
 /* File specifici per varie sezioni del mio sito */
@@ -63,4 +85,56 @@ ul li a {
 .btn-google {
   display: flex;
   align-content: center;
+}
+
+.img-right img {
+  max-width: 500px;
+}
+
+.section_one * {
+  margin: 20px;
+}
+
+.row img {
+  max-width: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.row .col-4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section_two h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.central_foto {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid black;
+}
+.central_foto img {
+  width: 300px;
+}
+
+.central_foto2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.central_foto2 img {
+  width: 300px;
+}
+
+.section_two h1 {
+  text-align: center;
+  padding-bottom: 40px;
 }
