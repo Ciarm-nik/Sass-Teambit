@@ -19,7 +19,7 @@ body {
 }
 
 .container2 {
-  max-width: 1200px;
+  max-width: 1100px;
   width: 100%;
   margin: auto;
 }
@@ -42,6 +42,10 @@ body {
 
 .bg_blue {
   background-color: #a7a7ec;
+}
+
+.bg_dark_blue {
+  background-color: #0414b3;
 }
 
 /* File specifici per varie sezioni del mio sito */
@@ -95,12 +99,12 @@ ul li a {
   margin: 20px;
 }
 
-.row img {
+.section_two .row img {
   max-width: 100px;
   -o-object-fit: contain;
      object-fit: contain;
 }
-.row .col-4 {
+.section_two .row .col-4 {
   display: flex;
   justify-content: space-around;
 }
@@ -137,4 +141,41 @@ ul li a {
 .section_two h1 {
   text-align: center;
   padding-bottom: 40px;
+}
+
+.img_slider img {
+  width: 550px;
+}
+
+.img_destra {
+  padding: 20px;
+}
+.img_destra img {
+  width: 300px;
+  padding-left: 20px;
+}
+.img_destra h3 {
+  padding: 20px;
+}
+.img_destra p {
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.img_destra a {
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.section_quattro {
+  text-align: center;
+  padding: 20px;
+}
+
+.jumbotron {
+  width: 600px;
+  border-radius: 10px;
+  background-color: white;
+}
+.jumbotron p {
+  font-size: 12px;
 }
