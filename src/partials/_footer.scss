@@ -1,0 +1,21 @@
+.footer-img {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    img {
+        width: 50px;
+        margin-right: 5px;
+    }
+    span {
+        color: blue;
+    }
+}
+
+footer {
+    *{
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+}
